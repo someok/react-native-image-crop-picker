@@ -1,5 +1,11 @@
 # react-native-image-crop-picker
 
+## someok fork 说明
+
+由于 `v0.25.0` 版之后只支持 react native 0.60.0，并且 Android 切换到 AndroidX 依赖，对于部分 APP 无法做这么大的升级。
+
+所以只好 fork 一份旧版代码出来继续使用，并且修正了 [autoclose inputstream when base64 image file] 这个 bug。
+
 [![Backers on Open Collective](https://opencollective.com/react-native-image-crop-picker/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/react-native-image-crop-picker/sponsors/badge.svg)](#sponsors)
 
 <img src="svg.svg" width="50%" height="50%" />
